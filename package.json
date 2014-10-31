@@ -1,0 +1,31 @@
+{
+  "name": "get-local-ip",
+  "version": "0.1.0",
+  "description": "Get a local IP address from a specified network range",
+  "keywords": [ "ip", "range", "netmask", "subnet" ],
+  "homepage": "https://github.com/deepsweet/get-local-ip",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deepsweet/get-local-ip.git"
+  },
+  "author": {
+    "name": "Kir Belevich",
+    "email": "kir@soulshine.in",
+    "url": "https://github.com/deepsweet"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "range_check": "^0.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^0.8.2",
+    "jscs": "^1.7.3"
+  },
+  "scripts": {
+    "test": "eslint index.js && jscs index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "WTFPL"
+}
