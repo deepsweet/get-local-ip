@@ -20,10 +20,11 @@ $ npm i -S get-local-ip
 var getLocalIP = require('get-local-ip');
 
 console.log(getLocalIP('192.168.0.0/24'));
-// it will loop through all of your network interfaces and
-// return the first matched IPv4 address.
-// "192.168.0.123", for example.
 ```
+
+It will loop through all of your network interfaces and return the first matched IPv4 address.
+
+See [IP Calculator](http://jodies.de/ipcalc) for the further help.
 
 ## License
 [WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-strip.jpg)
