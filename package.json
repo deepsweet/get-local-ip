@@ -1,6 +1,6 @@
 {
   "name": "get-local-ip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get a local IP address from a specified network range",
   "keywords": [ "ip", "range", "netmask", "subnet" ],
   "homepage": "https://github.com/deepsweet/get-local-ip",
