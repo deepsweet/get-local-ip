@@ -17,7 +17,7 @@ module.exports = function(network) {
             var details = iface[i];
 
             if (details.family === 'IPv4' && details.internal === false) {
-                if (rangeCheck.in_range(details.address, network)) {
+                if (rangeCheck.inRange(details.address, network)) {
                     return details.address;
                 }
             }
